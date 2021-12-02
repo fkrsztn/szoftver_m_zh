@@ -28,7 +28,11 @@ describe("Tests for AttandanceList", () =>{
         array = new list();
     });
 
-    test("not empty", () =>{
+    test("empty", () =>{
         expect(array.add()).toBe(0);
+    })
+
+    test("not empty", () =>{
+        expect(array.add("test")).not.toBeNull();
     })
 });
