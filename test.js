@@ -1,4 +1,5 @@
 import { GenderGuesser } from "./GenderGuesser";
+import { AttandanceList } from "./AttandanceList";
 
 describe("Tests for GenderGuesser", () =>{
     let name;
@@ -18,4 +19,16 @@ describe("Tests for GenderGuesser", () =>{
         });
     });
 
+});
+
+
+describe("Tests for AttandanceList", () =>{
+    let array;
+    beforeAll(() =>{
+        array = new list();
+    });
+
+    test("not empty", () =>{
+        expect(array.add()).toBe(0);
+    })
 });
